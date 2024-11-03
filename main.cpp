@@ -1,12 +1,13 @@
 #include <iostream>
-#include "TestClass.hpp"
+#include "Project.hpp"
+// #include <Input.hpp>
 
 int main(int argc, char** argv)
 {
-    std::cout << "Hello World!" << std::endl;
+    std::cout << "Main: Hello World from main program!" << std::endl;
 
-    cmake_tutorial::TestClass testClass;
-    testClass.DoSomething();
+    cmake_tutorial::Project project;
+    project.DoSomething();
 
     return 0;
 }
